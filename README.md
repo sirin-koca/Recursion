@@ -11,8 +11,8 @@
 ## Recursive Method
 - Recursion is a method in OOP which calls itself directly or indirectly until a suitable condition is met. 
 - Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+- To prevent infinite recursion, you need at least one branch (i.e. of an if/else statement) that does not make a recursive call. Branches without recursive calls are called base cases; branches with recursive calls are called recursive cases.
 
-- we must define 
 
 _E.g. A Recursive Factorial Function_
 

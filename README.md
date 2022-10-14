@@ -1,7 +1,7 @@
 
 ## Recursive Data Structure
 - A recursive data structure is an object or class that contains an abstraction of itself.
-- In mathematical terms, we say that the object is "isomorphic" to itself. The basic embodiment of a recursive data structure is the Composite Design pattern. Recursive data structures enable us to represent repetitive abstract patterns. In such, they enable us to generate or represent complexity from simplicity.
+- In mathematical terms, we say that the object is "isomorphic" to itself. The basics of a recursive data structure is the Composite Design pattern. Recursive data structures enable us to represent repetitive abstract patterns. In such, they enable us to generate or represent complexity from simplicity.
 
 ## Recursive Algorithm
 - A recursive algorithm is a process that accomplishes its task, in part, by calling an abstraction of itself
@@ -11,6 +11,8 @@
 ## Recursive Method
 - Recursion is a method in OOP which calls itself directly or indirectly until a suitable condition is met. 
 - Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+
+- we must define 
 
 _E.g. A Recursive Factorial Function_
 
@@ -23,6 +25,17 @@ public static int fac(int n) {
   }
 }
 
+
+// Et annet eksempel på rekursiv metode:
+// Euklids algoritme for det største felles divisor
+
+  public static int euklid(int a, int b)
+  {
+    if (b == 0) return a;
+    int r = a % b;            // r er resten
+    return euklid(b,r);       // rekursivt kall
+  }
+     
       
    \  :  /
 `. __/ \__ .'

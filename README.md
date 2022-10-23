@@ -1,4 +1,8 @@
 
+
+<img src="https://github.com/sirin-koca/Java-Basics/blob/master/img/recursion.jpeg" width="800">
+
+
 ## Recursive Data Structure
 - A recursive data structure is an object or class that contains an abstraction of itself.
 - In mathematical terms, we say that the object is "isomorphic" to itself. The basics of a recursive data structure is the Composite Design pattern. Recursive data structures enable us to represent repetitive abstract patterns. In such, they enable us to generate or represent complexity from simplicity.
